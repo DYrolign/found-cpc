@@ -1,0 +1,66 @@
+html{
+    background-size: cover;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #b90000;
+}
+
+div.word {
+    background: url("../img/background.png") no-repeat 0px 0px;
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+    border: 4px solid #fffc48;
+    border-radius: 8px 8px 8px 8px;
+    height: auto;
+    color: rgb(255, 253, 220);
+    font-family:楷体;
+}
+
+div.music{
+    position: fixed;
+    right: 8px;
+}
+
+div#toTop {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+div.image{
+    background-color: #fffc48;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight:bold;
+}
+
+h2{
+    font-size: 36px;
+    letter-spacing: 4px;
+    font-weight:bold;
+}
+
+.article p{
+    font-size: x-large;
+    text-align: left;
+}
